@@ -1,0 +1,5 @@
+{
+  "name": "AI Unemployment Data Analyzer",
+  "description": "An interactive web application that uses AI to analyze unemployment data from a CSV file. It generates Python code for the analysis, visualizes trends with charts, and provides key insights into the data, including the impact of major events like Covid-19.",
+  "requestFramePermissions": []
+}
