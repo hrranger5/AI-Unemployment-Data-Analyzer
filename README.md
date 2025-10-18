@@ -1,12 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📊 AI Unemployment Data Analyzer
 
-# Run and deploy your AI Studio app
+## 🧠 Overview
+**AI Unemployment Data Analyzer** is an interactive web-based tool that uses **Artificial Intelligence** to analyze unemployment data.  
+Users can **upload a CSV file**, and the application automatically generates:
+- Key **insights** and **summaries**
+- **Visual charts** and **graphs**
+- AI-generated **Python analysis code** for deeper exploration
 
-This contains everything you need to run your app locally.
+This project showcases how **AI can assist in data analysis** by automating insight extraction, visualization, and code generation — making data exploration faster and smarter.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1NLfHneMc7GOAIBmr7eoOIglfyKERHW-u
+---
+
+## ⚙️ Features
+- 📂 **Upload CSV Files** — upload any unemployment-related dataset  
+- 📈 **Automatic Visualizations** — bar charts, line graphs, pie charts, etc.  
+- 🧮 **Insight Generation** — AI summarizes trends and correlations  
+- 🧠 **Code Generation** — get Python snippets to reproduce analysis  
+- 🌐 **Interactive Web Interface** — easy to use, clean layout  
+
+---
+
+## 🧰 Tech Stack
+| Component | Technology |
+|------------|-------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Flask (Python) |
+| Data Analysis | Pandas, NumPy, Matplotlib / Plotly |
+| AI Model | Google Gemini (for insight & code generation) |
+
+---
+
+## 🚀 How It Works
+1. Upload your **CSV dataset** (e.g., unemployment rate, age group, country, etc.).  
+2. The app processes your data and sends it to the **Gemini AI model**.  
+3. AI analyzes and generates:
+   - Textual insights  
+   - Visual data charts  
+   - Python analysis code  
+4. The results are displayed in an easy-to-read dashboard.  
 
 ## Run Locally
 
@@ -15,6 +46,6 @@ View your app in AI Studio: https://ai.studio/apps/drive/1NLfHneMc7GOAIBmr7eoOIg
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local)
 3. Run the app:
    `npm run dev`
